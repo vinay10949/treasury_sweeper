@@ -1,0 +1,42 @@
+{
+  "treasury_address": "0xe1ceb5a84138b1181972b1230312009f2d821201",
+  "hot_wallets": [
+    {
+      "address": "0x701b519ed7cc5fe1a9e03a594816f909e25f6be8",
+      "label": "Hot Wallet 1",
+      "rules": [
+        {
+          "native_balance": {
+            "threshold": "0.1",
+            "asset": "ETH"
+          }
+        }
+      ]
+    },
+    {
+      "address": "0xc2de569dad522025a62dcf9a5e2eba4348366ec6",
+      "label": "Hot Wallet 2",
+      "rules": [
+        {
+          "native_balance": {
+            "threshold": "0.1",
+            "asset": "ETH"
+          }
+        }
+      ]
+    },
+    {
+      "address": "0x848b5e75601c67a44363e76289cb7363d046a69e",
+      "label": "Hot Wallet 3",
+      "rules": [
+        {
+          "native_balance": {
+            "threshold": "0.1",
+            "asset": "ETH"
+          }
+        }
+      ]
+    }
+  ],
+  "sweep_interval_seconds": 60
+}
